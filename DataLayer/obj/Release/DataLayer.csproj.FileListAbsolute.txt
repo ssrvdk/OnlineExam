@@ -1,0 +1,45 @@
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Release\DataLayer.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Release\DataLayer.pdb
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Release\ELHelper.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Release\EntityLayer.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Release\ExceptionManager.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Release\ELHelper.pdb
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Release\EntityLayer.pdb
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Release\ExceptionManager.pdb
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\obj\Release\DataLayer.csprojResolveAssemblyReference.cache
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\obj\Release\DataLayer.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\obj\Release\DataLayer.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\DataLayer.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\DataLayer.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\ELHelper.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\EntityLayer.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\ExceptionManager.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\ELHelper.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\EntityLayer.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\ExceptionManager.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\obj\Release\DataLayer.csprojResolveAssemblyReference.cache
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\obj\Release\DataLayer.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\obj\Release\DataLayer.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\DataLayer.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\DataLayer.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\ELHelper.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\EntityLayer.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\ExceptionManager.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\ELHelper.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\EntityLayer.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Release\ExceptionManager.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\obj\Release\DataLayer.csprojResolveAssemblyReference.cache
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\obj\Release\DataLayer.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\obj\Release\DataLayer.pdb

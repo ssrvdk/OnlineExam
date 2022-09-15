@@ -1,0 +1,121 @@
+E:\projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\DataLayer.dll
+E:\projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\DataLayer.pdb
+E:\projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\ELHelper.dll
+E:\projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\ExceptionManager.dll
+E:\projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+E:\projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\ELHelper.pdb
+E:\projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\ExceptionManager.pdb
+E:\projects\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+E:\projects\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.dll
+E:\projects\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.pdb
+E:\projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\EntityLayer.dll
+E:\projects\Ecommerce\Ecommerce\DataLayer\bin\Debug\EntityLayer.pdb
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Debug\DataLayer.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Debug\DataLayer.pdb
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Debug\ELHelper.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Debug\EntityLayer.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Debug\ExceptionManager.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Debug\ELHelper.pdb
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Debug\EntityLayer.pdb
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\bin\Debug\ExceptionManager.pdb
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.dll
+D:\Ecommerce\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\DataLayer.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\DataLayer.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\ELHelper.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\EntityLayer.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\ExceptionManager.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\ELHelper.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\EntityLayer.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\ExceptionManager.pdb
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.dll
+E:\SVN Workspace\trunk\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\DataLayer.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\DataLayer.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\ELHelper.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\EntityLayer.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\ExceptionManager.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\ELHelper.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\EntityLayer.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\ExceptionManager.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.pdb
+F:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\DataLayer.dll
+F:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\DataLayer.pdb
+F:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\ELHelper.dll
+F:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\EntityLayer.dll
+F:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\ExceptionManager.dll
+F:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+F:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\EntityLayer.pdb
+F:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\ELHelper.pdb
+F:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\bin\Debug\ExceptionManager.pdb
+F:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+F:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+F:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.dll
+F:\WorkBench\SVNRepo\trunk\Ecommerce\Ecommerce\DataLayer\obj\Debug\DataLayer.pdb
+E:\OnlineExam\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+E:\OnlineExam\DataLayer\obj\Debug\DataLayer.dll
+E:\OnlineExam\DataLayer\obj\Debug\DataLayer.pdb
+E:\OnlineExam\DataLayer\bin\Debug\DataLayer.dll
+E:\OnlineExam\DataLayer\bin\Debug\DataLayer.pdb
+E:\OnlineExam\DataLayer\bin\Debug\ELHelper.dll
+E:\OnlineExam\DataLayer\bin\Debug\EntityLayer.dll
+E:\OnlineExam\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\OnlineExam\DataLayer\bin\Debug\ExceptionManager.dll
+E:\OnlineExam\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\OnlineExam\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\OnlineExam\DataLayer\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+E:\OnlineExam\DataLayer\bin\Debug\ELHelper.pdb
+E:\OnlineExam\DataLayer\bin\Debug\EntityLayer.pdb
+E:\OnlineExam\DataLayer\bin\Debug\ExceptionManager.pdb
+E:\OnlineExam\OnlineExam\DataLayer\bin\Debug\DataLayer.dll
+E:\OnlineExam\OnlineExam\DataLayer\bin\Debug\DataLayer.pdb
+E:\OnlineExam\OnlineExam\DataLayer\bin\Debug\ELHelper.dll
+E:\OnlineExam\OnlineExam\DataLayer\bin\Debug\EntityLayer.dll
+E:\OnlineExam\OnlineExam\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\OnlineExam\OnlineExam\DataLayer\bin\Debug\ExceptionManager.dll
+E:\OnlineExam\OnlineExam\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\OnlineExam\OnlineExam\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\OnlineExam\OnlineExam\DataLayer\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+E:\OnlineExam\OnlineExam\DataLayer\bin\Debug\ELHelper.pdb
+E:\OnlineExam\OnlineExam\DataLayer\bin\Debug\EntityLayer.pdb
+E:\OnlineExam\OnlineExam\DataLayer\bin\Debug\ExceptionManager.pdb
+E:\OnlineExam\OnlineExam\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+E:\OnlineExam\OnlineExam\DataLayer\obj\Debug\DataLayer.dll
+E:\OnlineExam\OnlineExam\DataLayer\obj\Debug\DataLayer.pdb
+E:\Share\OnlineExam\OnlineExam\DataLayer\bin\Debug\DataLayer.dll
+E:\Share\OnlineExam\OnlineExam\DataLayer\bin\Debug\DataLayer.pdb
+E:\Share\OnlineExam\OnlineExam\DataLayer\bin\Debug\ELHelper.dll
+E:\Share\OnlineExam\OnlineExam\DataLayer\bin\Debug\EntityLayer.dll
+E:\Share\OnlineExam\OnlineExam\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Share\OnlineExam\OnlineExam\DataLayer\bin\Debug\ExceptionManager.dll
+E:\Share\OnlineExam\OnlineExam\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\Share\OnlineExam\OnlineExam\DataLayer\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Share\OnlineExam\OnlineExam\DataLayer\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+E:\Share\OnlineExam\OnlineExam\DataLayer\bin\Debug\ELHelper.pdb
+E:\Share\OnlineExam\OnlineExam\DataLayer\bin\Debug\EntityLayer.pdb
+E:\Share\OnlineExam\OnlineExam\DataLayer\bin\Debug\ExceptionManager.pdb
+E:\Share\OnlineExam\OnlineExam\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+E:\Share\OnlineExam\OnlineExam\DataLayer\obj\Debug\DataLayer.dll
+E:\Share\OnlineExam\OnlineExam\DataLayer\obj\Debug\DataLayer.pdb

@@ -1,0 +1,50 @@
+D:\workbench\restaurant\ExceptionManager\ExceptionManager\bin\Release\ExceptionManager.dll
+D:\workbench\restaurant\ExceptionManager\ExceptionManager\bin\Release\ExceptionManager.pdb
+D:\workbench\restaurant\ExceptionManager\ExceptionManager\bin\Release\log4net.dll
+D:\workbench\restaurant\ExceptionManager\ExceptionManager\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\workbench\restaurant\ExceptionManager\ExceptionManager\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\workbench\restaurant\ExceptionManager\ExceptionManager\bin\Release\System.Net.Http.Formatting.dll
+D:\workbench\restaurant\ExceptionManager\ExceptionManager\bin\Release\System.Web.Http.dll
+D:\workbench\restaurant\ExceptionManager\ExceptionManager\obj\Release\ExceptionManager.csprojResolveAssemblyReference.cache
+D:\workbench\restaurant\ExceptionManager\ExceptionManager\obj\Release\ExceptionManager.dll
+D:\workbench\restaurant\ExceptionManager\ExceptionManager\obj\Release\ExceptionManager.pdb
+D:\SVN Workbench\Restaurant\ExceptionManager\ExceptionManager\bin\Release\ExceptionManager.dll
+D:\SVN Workbench\Restaurant\ExceptionManager\ExceptionManager\bin\Release\ExceptionManager.pdb
+D:\SVN Workbench\Restaurant\ExceptionManager\ExceptionManager\bin\Release\log4net.dll
+D:\SVN Workbench\Restaurant\ExceptionManager\ExceptionManager\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SVN Workbench\Restaurant\ExceptionManager\ExceptionManager\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\SVN Workbench\Restaurant\ExceptionManager\ExceptionManager\bin\Release\System.Net.Http.Formatting.dll
+D:\SVN Workbench\Restaurant\ExceptionManager\ExceptionManager\bin\Release\System.Web.Http.dll
+D:\SVN Workbench\Restaurant\ExceptionManager\ExceptionManager\obj\Release\ExceptionManager.csprojResolveAssemblyReference.cache
+D:\SVN Workbench\Restaurant\ExceptionManager\ExceptionManager\obj\Release\ExceptionManager.dll
+D:\SVN Workbench\Restaurant\ExceptionManager\ExceptionManager\obj\Release\ExceptionManager.pdb
+D:\Ecommerce\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\ExceptionManager.dll
+D:\Ecommerce\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\ExceptionManager.pdb
+D:\Ecommerce\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\log4net.dll
+D:\Ecommerce\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Ecommerce\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Ecommerce\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\System.Net.Http.Formatting.dll
+D:\Ecommerce\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\System.Web.Http.dll
+D:\Ecommerce\Ecommerce\ExceptionManager\ExceptionManager\obj\Release\ExceptionManager.csprojResolveAssemblyReference.cache
+D:\Ecommerce\Ecommerce\ExceptionManager\ExceptionManager\obj\Release\ExceptionManager.dll
+D:\Ecommerce\Ecommerce\ExceptionManager\ExceptionManager\obj\Release\ExceptionManager.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\ExceptionManager.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\ExceptionManager.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\log4net.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\System.Net.Http.Formatting.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\System.Web.Http.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\ExceptionManager\ExceptionManager\obj\Release\ExceptionManager.csprojResolveAssemblyReference.cache
+D:\WorkBench\SVNRepo\trunk\Ecommerce\ExceptionManager\ExceptionManager\obj\Release\ExceptionManager.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\ExceptionManager\ExceptionManager\obj\Release\ExceptionManager.pdb
+E:\SVN Workspace\trunk\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\ExceptionManager.dll
+E:\SVN Workspace\trunk\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\ExceptionManager.pdb
+E:\SVN Workspace\trunk\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\log4net.dll
+E:\SVN Workspace\trunk\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\SVN Workspace\trunk\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\SVN Workspace\trunk\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\System.Net.Http.Formatting.dll
+E:\SVN Workspace\trunk\Ecommerce\ExceptionManager\ExceptionManager\bin\Release\System.Web.Http.dll
+E:\SVN Workspace\trunk\Ecommerce\ExceptionManager\ExceptionManager\obj\Release\ExceptionManager.csprojResolveAssemblyReference.cache
+E:\SVN Workspace\trunk\Ecommerce\ExceptionManager\ExceptionManager\obj\Release\ExceptionManager.dll
+E:\SVN Workspace\trunk\Ecommerce\ExceptionManager\ExceptionManager\obj\Release\ExceptionManager.pdb

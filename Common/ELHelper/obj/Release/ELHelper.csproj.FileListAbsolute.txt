@@ -1,0 +1,55 @@
+D:\workbench\restaurant\Common\ELHelper\bin\Release\ELHelper.dll
+D:\workbench\restaurant\Common\ELHelper\bin\Release\ELHelper.pdb
+D:\workbench\restaurant\Common\ELHelper\bin\Release\ExceptionManager.dll
+D:\workbench\restaurant\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\workbench\restaurant\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\workbench\restaurant\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\workbench\restaurant\Common\ELHelper\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\workbench\restaurant\Common\ELHelper\bin\Release\ExceptionManager.pdb
+D:\workbench\restaurant\Common\ELHelper\obj\Release\ELHelper.csprojResolveAssemblyReference.cache
+D:\workbench\restaurant\Common\ELHelper\obj\Release\ELHelper.dll
+D:\workbench\restaurant\Common\ELHelper\obj\Release\ELHelper.pdb
+D:\SVN Workbench\Restaurant\Common\ELHelper\bin\Release\ELHelper.dll
+D:\SVN Workbench\Restaurant\Common\ELHelper\bin\Release\ELHelper.pdb
+D:\SVN Workbench\Restaurant\Common\ELHelper\bin\Release\ExceptionManager.dll
+D:\SVN Workbench\Restaurant\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SVN Workbench\Restaurant\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\SVN Workbench\Restaurant\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\SVN Workbench\Restaurant\Common\ELHelper\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\SVN Workbench\Restaurant\Common\ELHelper\bin\Release\ExceptionManager.pdb
+D:\SVN Workbench\Restaurant\Common\ELHelper\obj\Release\ELHelper.csprojResolveAssemblyReference.cache
+D:\SVN Workbench\Restaurant\Common\ELHelper\obj\Release\ELHelper.dll
+D:\SVN Workbench\Restaurant\Common\ELHelper\obj\Release\ELHelper.pdb
+D:\Ecommerce\Ecommerce\Common\ELHelper\bin\Release\ELHelper.dll
+D:\Ecommerce\Ecommerce\Common\ELHelper\bin\Release\ELHelper.pdb
+D:\Ecommerce\Ecommerce\Common\ELHelper\bin\Release\ExceptionManager.dll
+D:\Ecommerce\Ecommerce\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Ecommerce\Ecommerce\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Ecommerce\Ecommerce\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Ecommerce\Ecommerce\Common\ELHelper\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\Ecommerce\Ecommerce\Common\ELHelper\bin\Release\ExceptionManager.pdb
+D:\Ecommerce\Ecommerce\Common\ELHelper\obj\Release\ELHelper.csprojResolveAssemblyReference.cache
+D:\Ecommerce\Ecommerce\Common\ELHelper\obj\Release\ELHelper.dll
+D:\Ecommerce\Ecommerce\Common\ELHelper\obj\Release\ELHelper.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Common\ELHelper\bin\Release\ELHelper.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Common\ELHelper\bin\Release\ELHelper.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Common\ELHelper\bin\Release\ExceptionManager.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Common\ELHelper\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Common\ELHelper\bin\Release\ExceptionManager.pdb
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Common\ELHelper\obj\Release\ELHelper.csprojResolveAssemblyReference.cache
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Common\ELHelper\obj\Release\ELHelper.dll
+D:\WorkBench\SVNRepo\trunk\Ecommerce\Common\ELHelper\obj\Release\ELHelper.pdb
+E:\SVN Workspace\trunk\Ecommerce\Common\ELHelper\bin\Release\ELHelper.dll
+E:\SVN Workspace\trunk\Ecommerce\Common\ELHelper\bin\Release\ELHelper.pdb
+E:\SVN Workspace\trunk\Ecommerce\Common\ELHelper\bin\Release\ExceptionManager.dll
+E:\SVN Workspace\trunk\Ecommerce\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\SVN Workspace\trunk\Ecommerce\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\SVN Workspace\trunk\Ecommerce\Common\ELHelper\bin\Release\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\SVN Workspace\trunk\Ecommerce\Common\ELHelper\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+E:\SVN Workspace\trunk\Ecommerce\Common\ELHelper\bin\Release\ExceptionManager.pdb
+E:\SVN Workspace\trunk\Ecommerce\Common\ELHelper\obj\Release\ELHelper.csprojResolveAssemblyReference.cache
+E:\SVN Workspace\trunk\Ecommerce\Common\ELHelper\obj\Release\ELHelper.dll
+E:\SVN Workspace\trunk\Ecommerce\Common\ELHelper\obj\Release\ELHelper.pdb
