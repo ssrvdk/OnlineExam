@@ -56,9 +56,11 @@
     <form id="form1" runat="server">
         <asp:ScriptManager ID="scriptmanager1" runat="server"></asp:ScriptManager>
         <div>
+            
             <%--<asp:Timer ID="Timer1" runat="server" OnTick="GetTime" Interval="1000" />--%>
-            <asp:UpdatePanel ID="updatepnl" runat="server">
+            <asp:UpdatePanel ID="updatepnl" runat="server">                
                 <ContentTemplate>
+                     <asp:HiddenField ID="hdnIDSection" runat="server"  />
                     <div class="container-fluid">
                         <div class="row content">
                             <div class="col-md-12 card-header">
@@ -68,7 +70,6 @@
                                 <div class="col-md-2">
                                     <h4 style="line-height: 2em;">
                                         <asp:Label ID="lblTime" runat="server" /></h4>
-
                                 </div>
                             </div>
                             <div class="clearfix"></div>
@@ -127,6 +128,7 @@
                                 </div>
                             </div>
                         </div>
+                        <asp:Button ID="btnMark" runat="server" Text="Mark for Review & Next" OnClick="btnMark_Click" />
                         <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
                     </div>
                 </ContentTemplate>

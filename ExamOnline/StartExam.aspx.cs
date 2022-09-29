@@ -15,7 +15,9 @@ namespace ExamOnline
     {
         List<EntityLayer.QuestionMaster> lstQuestion = null;
         StudentDL objStudentDL = new StudentDL();
-        int id;
+        List<EntityLayer.StudentAnswer> objStudentAnswer = new List<EntityLayer.StudentAnswer>();
+        EntityLayer.StudentAnswer objStudent = null;
+        int SectionId = 0;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!this.IsPostBack)
@@ -30,12 +32,39 @@ namespace ExamOnline
                 ddl1.BackColor = Color.Red;
                 btnVisited.Text = "1";
                 btnNotVisited.Text = (QuestionsTable.Rows.Count - 1).ToString();
-
+                GetAnswerTable();
                 Session["timeout"] = DateTime.Now.AddMinutes(360);
                 string mm = ((Int32)DateTime.Parse(Session["timeout"].ToString()).Subtract(DateTime.Now).TotalMinutes).ToString();
                 string ss = ((Int32)DateTime.Parse(Session["timeout"].ToString()).Subtract(DateTime.Now).Seconds).ToString();
                 lblTime.Text = string.Format("Time Left: 00:{0}:{1}", mm.Length > 1 ? mm : ("0" + mm), ss.Length > 1 ? ss : ("0" + ss));
             }
+        }
+
+        private void GetAnswerTable()
+        {
+            DataTable dt = AnsweredTable;
+            DataRow dr = dt.NewRow();
+            dr["QuestionID"] = hdnQuestionId.Value;
+            int SectionID = QuestionsTable.AsEnumerable().Where(x => x.Field<int>("QuestionMasterId") == Convert.ToInt32(hdnQuestionId.Value)).Select(x => x.Field<int>("SectionId")).FirstOrDefault();
+            dr["SectionID"] = SectionID;
+            int QusNo = QuestionsTable.AsEnumerable().Where(x => x.Field<int>("QuestionMasterId") == Convert.ToInt32(hdnQuestionId.Value)).Select(x => x.Field<int>("QuestionNumber")).FirstOrDefault();
+            dr["QusNo"] = QusNo;
+            dr["Question"] = lblQuestion.Text.Trim();
+            Button ddl1 = (System.Web.UI.WebControls.Button)rptQuestionNo.Items[QuestionIndex].FindControl("btnQuestionNumber");
+            if (rbtnOptions.SelectedItem != null)
+            {
+                dr["Type"] = (int)EntityLayer.Type.Answered;
+                ddl1.BackColor = ColorTranslator.FromHtml("#49be25");
+            }
+            else
+            {
+                dr["Type"] = (int)EntityLayer.Type.Visited;
+                ddl1.BackColor = Color.Red;
+            }
+            dr["Answered"] = rbtnOptions.SelectedItem != null ? int.Parse(rbtnOptions.SelectedItem.Value) : (object)DBNull.Value;
+            dt.Rows.Add(dr);
+
+            AnsweredTable = dt;
         }
 
         //private List<EntityLayer.QuestionMaster> GetQuestions()
@@ -92,7 +121,9 @@ namespace ExamOnline
                 if (ViewState["Answer"] == null)
                 {
                     DataTable dt = new DataTable();
+                    dt.Columns.Add("QusNo", typeof(int));
                     dt.Columns.Add("QuestionID", typeof(int));
+                    dt.Columns.Add("SectionID", typeof(int));
                     dt.Columns.Add("Question", typeof(string));
                     dt.Columns.Add("Type", typeof(string));
                     dt.Columns.Add("Answered", typeof(int));
@@ -113,7 +144,6 @@ namespace ExamOnline
             set { ViewState["QuestionIndex"] = value; }
         }
 
-
         protected void OnNext(object sender, EventArgs e)
         {
             SetSelectedAnswer();
@@ -133,8 +163,6 @@ namespace ExamOnline
             SetSelectedOption();
             CalculateAnswer();
         }
-
-
 
         private void SetSelectedAnswer()
         {
@@ -159,6 +187,10 @@ namespace ExamOnline
             {
                 DataRow dr = dt.NewRow();
                 dr["QuestionID"] = hdnQuestionId.Value;
+                int SectionID = QuestionsTable.AsEnumerable().Where(x => x.Field<int>("QuestionMasterId") == Convert.ToInt32(hdnQuestionId.Value)).Select(x => x.Field<int>("SectionId")).FirstOrDefault();
+                dr["SectionID"] = SectionID;
+                int QusNo = QuestionsTable.AsEnumerable().Where(x => x.Field<int>("QuestionMasterId") == Convert.ToInt32(hdnQuestionId.Value)).Select(x => x.Field<int>("QuestionNumber")).FirstOrDefault();
+                dr["QusNo"] = QusNo;
                 dr["Question"] = lblQuestion.Text.Trim();
                 Button ddl1 = (System.Web.UI.WebControls.Button)rptQuestionNo.Items[QuestionIndex].FindControl("btnQuestionNumber");
                 if (rbtnOptions.SelectedItem != null)
@@ -179,19 +211,37 @@ namespace ExamOnline
 
         private void SetSelectedOption()
         {
+            int SecId = Convert.ToInt32(hdnIDSection.Value);
             DataTable dt = AnsweredTable;
+            //DataTable dt = AnsweredTable.AsEnumerable().Where(x => x.Field<int>("SectionId") == SecId).CopyToDataTable();
             DataRow[] dr = AnsweredTable.Select("Question='" + lblQuestion.Text.Trim() + "'");
             if (dr.Length > 0)
             {
                 if (rbtnOptions.Items.FindByValue(dr[0]["Answered"].ToString()) != null)
                 {
                     rbtnOptions.Items.FindByValue(dr[0]["Answered"].ToString()).Selected = true;
+                    //int SecId = Convert.ToInt32(dt.Rows[QuestionIndex]["SectionId"]);
+                    Button ddl11 = (System.Web.UI.WebControls.Button)rptQuestionNo.Items[QuestionIndex].FindControl("btnQuestionNumber");
+                    if (rbtnOptions.SelectedItem != null)
+                    {
+                        dr[0]["Type"] = (int)EntityLayer.Type.Answered;
+                        ddl11.BackColor = ColorTranslator.FromHtml("#49be25");
+                    }
+                    else
+                    {
+                        dr[0]["Type"] = (int)EntityLayer.Type.Visited;
+                        ddl11.BackColor = Color.Red;
+                    }
                 }
             }
             else
             {
                 DataRow dr1 = dt.NewRow();
                 dr1["QuestionID"] = hdnQuestionId.Value;
+                int SectionID = QuestionsTable.AsEnumerable().Where(x => x.Field<int>("QuestionMasterId") == Convert.ToInt32(hdnQuestionId.Value)).Select(x => x.Field<int>("SectionId")).FirstOrDefault();
+                dr1["SectionID"] = SectionID;
+                int QusNo = QuestionsTable.AsEnumerable().Where(x => x.Field<int>("QuestionMasterId") == Convert.ToInt32(hdnQuestionId.Value)).Select(x => x.Field<int>("QuestionNumber")).FirstOrDefault();
+                dr1["QusNo"] = QusNo;
                 dr1["Question"] = lblQuestion.Text.Trim();
                 Button dd = (System.Web.UI.WebControls.Button)rptQuestionNo.Items[QuestionIndex].FindControl("btnQuestionNumber");
                 if (rbtnOptions.SelectedItem != null)
@@ -219,18 +269,20 @@ namespace ExamOnline
         private DataTable PopulateQuestions(int sectionId = 0)
         {
             DataSet ds = objStudentDL.GetAllQuestionDetails();
-            DataTable dt = ds.Tables[0];  
+            DataTable dt = ds.Tables[0];
             rptSection.DataSource = dt.AsEnumerable().GroupBy(r => new { Col1 = r["SectionId"] }).Select(g => g.OrderBy(r => r["SectionId"]).First()).CopyToDataTable();
             rptSection.DataBind();
             if (sectionId == 0)
             {
                 HiddenField hdn = (System.Web.UI.WebControls.HiddenField)rptSection.Items[0].FindControl("hdnSectionId");
+                hdnIDSection.Value = hdn.Value;
                 rptQuestionNo.DataSource = dt.AsEnumerable().Where(x => x.Field<int>("SectionId") == Convert.ToInt32(hdn.Value)).CopyToDataTable();
                 rptQuestionNo.DataBind();
                 return dt.AsEnumerable().Where(x => x.Field<int>("SectionId") == Convert.ToInt32(hdn.Value)).CopyToDataTable();
             }
             else
             {
+                hdnIDSection.Value = Convert.ToString(sectionId);
                 rptQuestionNo.DataSource = dt.AsEnumerable().Where(x => x.Field<int>("SectionId") == sectionId).CopyToDataTable();
                 rptQuestionNo.DataBind();
                 return dt.AsEnumerable().Where(x => x.Field<int>("SectionId") == sectionId).CopyToDataTable();
@@ -258,9 +310,6 @@ namespace ExamOnline
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             SetSelectedAnswer();
-            List<EntityLayer.StudentAnswer> objStudentAnswer = new List<EntityLayer.StudentAnswer>() ;
-            EntityLayer.StudentAnswer objStudent = null;
-            //ViewState["Answer"]
             for (int i = 0; i < AnsweredTable.Rows.Count; i++)
             {
                 objStudent = null;
@@ -275,12 +324,14 @@ namespace ExamOnline
         protected void rptQuestionNo_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
             Button hdnQuestionId = e.Item.FindControl("btnQuestionNumber") as Button;
+            HiddenField hdnId = e.Item.FindControl("hdnIDSection") as HiddenField;
             if (true)
             {
                 SetSelectedAnswer();
                 QuestionIndex = Convert.ToInt32(hdnQuestionId.Text) - 1;
                 EnableDisableNextPrevious();
                 GetCurrentQuestion(QuestionIndex, QuestionsTable);
+              //  GetColorByQuestionNo(SectionId);
                 SetSelectedOption();
                 CalculateAnswer();
             }
@@ -288,20 +339,27 @@ namespace ExamOnline
 
         private void CalculateAnswer()
         {
-            DataTable dt = AnsweredTable;
-            int answered = dt.AsEnumerable().Where(x => x.Field<string>("Type") == ((int)EntityLayer.Type.Answered).ToString()).Count();
-            int Visited = dt.AsEnumerable().Where(x => x.Field<string>("Type") == ((int)EntityLayer.Type.Visited).ToString()).Count();
-            btnVisited.Text = (Visited + answered).ToString();
-            btnAnswered.Text = answered.ToString();
-            btnNotVisited.Text = (QuestionsTable.Rows.Count - Visited - answered).ToString();
+            int SecId = Convert.ToInt32(hdnIDSection.Value);
+            int id = AnsweredTable.AsEnumerable().Where(x => x.Field<int>("SectionId") == SecId).Select(x => x.Field<int>("SectionId")).FirstOrDefault();
+            if (id == SecId)
+            {
+                DataTable dt = AnsweredTable.AsEnumerable().Where(x => x.Field<int>("SectionId") == SecId).CopyToDataTable();
+                int answered = dt.AsEnumerable().Where(x => x.Field<string>("Type") == ((int)EntityLayer.Type.Answered).ToString()).Count();
+                int Visited = dt.AsEnumerable().Where(x => x.Field<string>("Type") == ((int)EntityLayer.Type.Visited).ToString()).Count();
+                btnVisited.Text = (Visited + answered).ToString();
+                btnAnswered.Text = answered.ToString();
+                btnNotVisited.Text = (QuestionsTable.Rows.Count - Visited - answered).ToString();
+            }
         }
-        
+
         protected void rptSection_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
-            HiddenField hdnQuestionId = e.Item.FindControl("hdnSectionId") as HiddenField;
-            if (hdnQuestionId.Value != "")
+            //DataTable dt = AnsweredTable;
+            HiddenField hdnSectionId = e.Item.FindControl("hdnSectionId") as HiddenField;
+            if (hdnSectionId.Value != "")
             {
-                QuestionsTable = PopulateQuestions(Convert.ToInt32(hdnQuestionId.Value));
+                hdnIDSection.Value= hdnSectionId.Value; 
+                QuestionsTable = PopulateQuestions(Convert.ToInt32(hdnSectionId.Value));
                 QuestionIndex = 0;
                 EnableDisableNextPrevious();
                 GetCurrentQuestion(QuestionIndex, QuestionsTable);
@@ -310,11 +368,67 @@ namespace ExamOnline
                 ddl1.BackColor = Color.Red;
                 btnVisited.Text = "1";
                 btnNotVisited.Text = (QuestionsTable.Rows.Count - 1).ToString();
+
+               // GetColorByQuestionNo(Convert.ToInt32(hdnSectionId.Value));
+               // SetSelectedAnswer();
+                SetSelectedOption();
+                // GetAnswerTable();
+                CalculateAnswer();
+                GetColorByQuestionNo(Convert.ToInt32(hdnSectionId.Value));
+               
             }
         }
 
+        private void GetColorByQuestionNo(int SecId)
+        {
+            int QuestionsTableSection = 0;
+            int QuestionsTableId = 0;
+            int QuestionsTableNo = 0;
+            int id = AnsweredTable.AsEnumerable().Where(x => x.Field<int>("SectionId") == SecId).Select(x => x.Field<int>("SectionId")).FirstOrDefault();
+            if (AnsweredTable.Rows.Count > 0)
+            {
+                if (id == SecId)
+                {
+                    DataTable dt = AnsweredTable.AsEnumerable().Where(x => x.Field<int>("SectionId") == SecId).CopyToDataTable();
+                    DataTable dt1 = QuestionsTable.AsEnumerable().Where(x => x.Field<int>("SectionId") == SecId).CopyToDataTable(); 
+                    for (int i = 0; i < dt1.Rows.Count; i++)
+                    {
+                        QuestionsTableNo = Convert.ToInt32(dt1.Rows[i]["QuestionNumber"]);
+                        QuestionsTableId = Convert.ToInt32(dt1.Rows[i]["QuestionMasterId"]);
+                        QuestionsTableSection = Convert.ToInt32(dt1.Rows[i]["SectionId"]);
+
+                        for (int j = 0; j < dt.Rows.Count; j++)
+                        {                            
+                            int section = Convert.ToInt32(dt.Rows[j]["SectionId"]);
+                            int types = Convert.ToInt32(dt.Rows[j]["Type"]);
+                            int QusNo = Convert.ToInt32(dt.Rows[j]["QusNo"]);
+                            int QusId = Convert.ToInt32(dt.Rows[j]["QuestionID"]);
+                            Button dd = (System.Web.UI.WebControls.Button)rptQuestionNo.Items[j].FindControl("btnQuestionNumber");
+                            if (QusId == QuestionsTableId)
+                            {
+                                if (types == 2)
+                                {
+                                    dd.BackColor = ColorTranslator.FromHtml("#49be25");
+                                }
+                                else if (types == 1)
+                                {
+                                    dd.BackColor = Color.Red;
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+            }
 
 
 
+        }
+
+        protected void btnMark_Click(object sender, EventArgs e)
+        {
+            DataTable dt = AnsweredTable;
+        }
     }
 }

@@ -40,6 +40,15 @@ namespace ExamOnline {
         protected global::System.Web.UI.UpdatePanel updatepnl;
         
         /// <summary>
+        /// hdnIDSection control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hdnIDSection;
+        
+        /// <summary>
         /// lblTime control.
         /// </summary>
         /// <remarks>
@@ -173,6 +182,15 @@ namespace ExamOnline {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Repeater rptQuestionNo;
+        
+        /// <summary>
+        /// btnMark control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnMark;
         
         /// <summary>
         /// btnSubmit control.
